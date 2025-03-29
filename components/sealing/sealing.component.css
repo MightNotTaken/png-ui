@@ -1,0 +1,44 @@
+.sealing-container {
+    padding-bottom: 1rem;
+}
+.title {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10rem;
+    border: 2px solid yellow;
+    color: white;
+    font-size: 2rem;
+}
+
+.status {
+    width: 2rem;
+    height: 4rem;
+    margin-left: .4rem;
+    background-color: red;
+    border-radius: .4rem;
+}
+
+.normal {
+    background-color: #00b300; /* Bright Green - Normal */
+    color: white;
+}
+
+.paper-shift {
+    background-color: #ffcc00; /* Bright blue - Warning */
+    color: black;
+}
+
+.low-temperature {
+    background-color: #0044ff; /* Bright Blue - Cold Issue */
+    color: white;
+}
+
+.high-temperature {
+    background-color: #ff0033; /* Bright Red - Critical Heat */
+    color: white;
+}
+
+.low-pressure {
+    background-color: #8000ff; /* Vivid Purple - Pressure Issue */
+    color: white;
+}

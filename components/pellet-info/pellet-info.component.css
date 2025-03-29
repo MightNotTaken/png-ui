@@ -1,0 +1,38 @@
+.container {
+    padding: 1rem;
+}
+
+.normal {
+    background-color: #00b300; 
+}
+
+.paper-shift {
+    background-color: #ffcc00; 
+}
+
+.low-temperature {
+    background-color: #0044ff; 
+}
+
+.high-temperature {
+    background-color: #ff0033; 
+}
+
+.low-pressure {
+    background-color: #8000ff; 
+}
+
+.pellet {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 8rem;
+}
+
+.title {
+    color: yellow;
+    margin-left: 1rem;
+}
+
+.item {
+    width: 12rem;
+}

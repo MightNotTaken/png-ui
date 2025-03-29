@@ -1,0 +1,156 @@
+/* Basic Flexbox */
+.flex {
+  display: flex;
+}
+
+/* Flex Direction */
+.row {
+  flex-direction: row;
+}
+.row-reverse {
+  flex-direction: row-reverse;
+}
+.column {
+  flex-direction: column;
+}
+.column-reverse {
+  flex-direction: column-reverse;
+}
+
+/* Justify Content */
+.start {
+  justify-content: flex-start;
+}
+.center {
+  justify-content: center;
+}
+.end {
+  justify-content: flex-end;
+}
+.between {
+  justify-content: space-between;
+}
+.around {
+  justify-content: space-around;
+}
+.evenly {
+  justify-content: space-evenly;
+}
+
+/* Align Items */
+.vstart {
+  align-items: flex-start;
+}
+.vcenter {
+  align-items: center;
+}
+.vend {
+  align-items: flex-end;
+}
+.vstretch {
+  align-items: stretch;
+}
+.vbaseline {
+  align-items: baseline;
+}
+
+/* Align Self */
+.self-start {
+  align-self: flex-start;
+}
+.self-center {
+  align-self: center;
+}
+.self-end {
+  align-self: flex-end;
+}
+.self-stretch {
+  align-self: stretch;
+}
+
+/* Align Content */
+.ac-start {
+  align-content: flex-start;
+}
+.ac-center {
+  align-content: center;
+}
+.ac-end {
+  align-content: flex-end;
+}
+.ac-between {
+  align-content: space-between;
+}
+.ac-around {
+  align-content: space-around;
+}
+.ac-stretch {
+  align-content: stretch;
+}
+
+/* Flex Wrap */
+.wrap {
+  flex-wrap: wrap;
+}
+.nowrap {
+  flex-wrap: nowrap;
+}
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+/* Gap */
+.gap-1 {
+  gap: 4px;
+}
+.gap-2 {
+  gap: 8px;
+}
+.gap-3 {
+  gap: 12px;
+}
+.gap-4 {
+  gap: 16px;
+}
+.gap-5 {
+  gap: 24px;
+}
+
+/* Flex Grow, Shrink, Basis */
+.grow {
+  flex-grow: 1;
+}
+.nogrow {
+  flex-grow: 0;
+}
+.shrink {
+  flex-shrink: 1;
+}
+.noshrink {
+  flex-shrink: 0;
+}
+
+/* Full Flexbox Centering */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Remaining Width & Height */
+.remaining-width {
+  flex-grow: 1;
+  min-width: 0;
+}
+.remaining-height {
+  flex-grow: 1;
+  min-height: 0;
+}
+
+.distribute-in-row {
+  flex-flow: row wrap;
+
+}
+.distribute-in-column {
+  flex-flow: column wrap;
+}

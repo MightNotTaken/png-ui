@@ -1,0 +1,32 @@
+<div class="app flex center vcenter column full-screen top-0 left-0">
+    <div class="main-section full-width remaining-height flex center vcenter">
+        <div class="sealing-list full-height remaining-width">
+            <sealing-list-component [data]="leftSeals"></sealing-list-component>
+        </div>
+        <div class="video-section full-height flex center vcenter column">
+            <div class="title">Live Sealer Status</div>
+            <div class="vertical-videos flex center vcenter full-width">
+                <div class="vvc">
+                    <vertical-video-component cam="Left Camera"></vertical-video-component>
+                </div>
+                <div class="vvc">
+                    <vertical-video-component cam="Right Camera"></vertical-video-component>   
+                </div>
+            </div>
+            <div class="horizontal-videos full-width">
+                <div class="hvc">
+                    <horizontal-video-component cam="Horizontal Camera"></horizontal-video-component>
+                </div>
+            </div>
+        </div>
+        <div class="sealing-list full-height remaining-width">
+            <sealing-list-component [data]="rightSeals"></sealing-list-component>
+        </div>
+    </div>
+    <div class="meta-section full-width flex center vcenter column">
+        <div class="title-1">Machine Heaters</div>
+        <div class="plc-data relative remaining-height full-width">
+            <heaters-component></heaters-component>
+        </div>
+    </div>
+</div>

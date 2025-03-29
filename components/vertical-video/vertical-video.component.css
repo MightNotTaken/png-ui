@@ -1,0 +1,12 @@
+.container {
+    padding: .4rem;
+}
+img {
+    border-radius: 1rem;
+    width: 100%;
+    border: 2px solid yellow;
+}
+.title {
+    font-size: 4rem;
+    color: yellow;
+}

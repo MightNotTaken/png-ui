@@ -1,0 +1,42 @@
+{
+  "name": "png-shampoo-sachet",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Tahir Mehmood",
+  "description": "This UI shows the defect found in shampoo sachet sealing",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "package": "electron-packager . MyApp --platform=win32 --arch=x64 --out=dist/",
+    "package-pi": "electron-packager . MyApp --platform=linux --arch=armv7l --out=dist/",
+    "package-pi64": "electron-packager . MyApp --platform=linux --arch=arm64 --out=dist/"
+  },
+  "build": {
+    "appId": "com.tahir.fitfab.sachet.shampoo.png",
+    "productName": "PnG SSS",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "index.html",
+      "components/**/*",
+      "main.js",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    }
+  },
+  "devDependencies": {
+    "electron": "^35.0.3",
+    "electron-builder": "^25.1.8",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.2"
+  }
+}

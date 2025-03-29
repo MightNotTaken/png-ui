@@ -1,0 +1,49 @@
+.app {
+    background-color: rgb(1, 15, 15);
+    position: absolute;
+    padding: 4px;
+}
+
+
+.meta-section {
+    height: 10rem;
+    padding: .4rem;
+}
+
+
+.video-section {
+    position: relative;
+    width: 64%;
+}
+.vertical-videos {
+    position: relative;
+    height: 65%;
+    position: relative;
+
+}
+.horizontal-videos {
+    position: relative;
+    height: 35%;
+    position: relative;
+}
+
+.hvc {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.vvc {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.title {
+    font-size: 5rem;
+    color: yellow;
+}
+
+.title-1 {
+    font-size: 2rem;
+    color: yellow;
+}
