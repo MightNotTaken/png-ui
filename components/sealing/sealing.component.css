@@ -2,12 +2,17 @@
     padding-bottom: 1rem;
 }
 .title {
-    width: 6rem;
-    height: 6rem;
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    width: 4rem;
+    height: 4rem;
     border-radius: 10rem;
     border: 2px solid yellow;
-    color: white;
+    color: yellow;
     font-size: 2rem;
+    background: black;
 }
 
 
@@ -42,10 +47,10 @@
     background-color: #8000ff; /* Vivid Purple - Pressure Issue */
     color: white;
 }
-@media screen and (max-height: 1200px) {
+/* @media screen and (max-height: 1200px) {
     .title {
-        width: 5.4rem;
-        height: 5.4rem;
+        width: 3rem;
+        height: 3rem;
     }
     .status {
         height: 5.4rem;
@@ -82,8 +87,9 @@
     .title {
         width: 3rem;
         height: 3rem;
+        
     }
     .status {
         height: 2.8rem;
     }
-}
+} */
