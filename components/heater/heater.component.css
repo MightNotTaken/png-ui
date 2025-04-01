@@ -22,9 +22,9 @@
 /* Responsive Design */
 
 /* For screens up to 1280px */
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 2560px) {
     .heater {
-        width: 6.5rem;
+        width: 7.2rem;
         font-size: 0.9rem;
     }
 }
