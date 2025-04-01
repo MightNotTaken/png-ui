@@ -77,13 +77,13 @@
 
 @media screen and (max-width: 1000px) {
     .container {
-        padding: 65rem;
+        padding: .65rem;
     }
     
     .title {
         margin-left: .5rem;
     }
     .item {
-        width: 8rem;
+        width: 7rem;
     }
 }
