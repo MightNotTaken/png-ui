@@ -2,7 +2,7 @@
 img {
     border-radius: 1rem;
     border: 2px solid yellow;
-    width: 90%;
+    width: 86%;
     max-width: calc(100% - 1rem);
 }
 
