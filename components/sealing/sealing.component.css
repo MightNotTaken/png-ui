@@ -42,16 +42,15 @@
     background-color: #8000ff; /* Vivid Purple - Pressure Issue */
     color: white;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-height: 1200px) {
     .title {
-        width: 4rem;
-        height: 4rem;
+        width: 5.4rem;
+        height: 5.4rem;
     }
     .status {
-        height: 4rem;
+        height: 5.4rem;
     }
 }
-/* 
 @media screen and (max-height: 1000px) {
     .title {
         width: 4.8rem;
@@ -60,8 +59,8 @@
     .status {
         height: 4.8rem;
     }
-} */
-/* @media screen and (max-height: 900px) {
+}
+@media screen and (max-height: 900px) {
     .title {
         width: 4.2rem;
         height: 4.2rem;
@@ -69,7 +68,7 @@
     .status {
         height: 4.2rem;
     }
-} */
+}
 @media screen and (max-height: 800px) {
     .title {
         width: 3.5rem;
