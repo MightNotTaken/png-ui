@@ -42,7 +42,7 @@
     background-color: #8000ff; /* Vivid Purple - Pressure Issue */
     color: white;
 }
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1200px) {
     .title {
         width: 4rem;
         height: 4rem;
