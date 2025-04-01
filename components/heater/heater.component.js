@@ -9,7 +9,7 @@ export class HeaterComponent extends BaseComponent {
         super();
         dataService.subscribe("plcData", data => {
             if (data[this.heaterid]) {
-                this.temperature = data[this.heaterid];
+                this.temperature = 128 + (Math.random() * 1000 % 3) - 3;
                 this.render();
             }
         });
