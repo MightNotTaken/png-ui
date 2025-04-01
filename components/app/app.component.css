@@ -4,12 +4,10 @@
     padding: 4px;
 }
 
-
 .meta-section {
     height: 10rem;
     padding: .4rem;
 }
-
 
 .video-section {
     position: relative;
@@ -41,6 +39,12 @@
 .title {
     font-size: 5rem;
     color: yellow;
+}
+
+@media screen and (max-width: 1200px) {
+    .title {
+        font-size: 4rem;
+    }
 }
 
 .title-1 {
